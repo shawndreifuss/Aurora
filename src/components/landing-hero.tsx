@@ -35,6 +35,7 @@ const LandingHero = () => {
       <div>
         <Link href={isSignedIn ? '/dashboard' : '/sign-up'}>
           <Button
+            variant="premium"
             className="md:text-lg md:p6 rounded-full font-semibold"
           >
             Start Generating For Free

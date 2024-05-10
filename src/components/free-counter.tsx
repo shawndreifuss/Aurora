@@ -39,7 +39,7 @@ const FreeCounter = ({
               value={(apiLimitCount / MAX_FREE_COUNTS) * 100}
             />
           </div>
-          <Button className="w-full"  onClick={() => onOpen()}>
+          <Button className="w-full" variant="premium" onClick={() => onOpen()}>
             Upgrade
             <Zap className="w-4 hh-4 ml-2 fill-white" />
           </Button>

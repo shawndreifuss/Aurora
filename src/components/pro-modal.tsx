@@ -23,7 +23,7 @@ import {
   VideoIcon,
   Zap,
 } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import { Button } from './ui/button'
 import axios from 'axios'
 import { useState } from 'react'
 
@@ -85,8 +85,8 @@ const ProModal = () => {
         <DialogHeader className="flex justify-center items-center flex-col gap-y-4 pb-2">
           <DialogTitle>
             <div className="flex items-center gap-x-2 font-bold py-1">
-              Upgrade to Genius
-              <Badge className="uppercase text-sm py-1" >
+              Upgrade to Aurora
+              <Badge className="uppercase text-sm py-1" variant="premium">
                 pro
               </Badge>
             </div>
@@ -112,6 +112,7 @@ const ProModal = () => {
           <DialogFooter className="w-full">
             <Button
               size="lg"
+              variant="premium"
               className="w-full"
               onClick={onSubscribe}
               disabled={loading}

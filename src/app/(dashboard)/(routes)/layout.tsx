@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
-import NavBar from '@/components/ai-landing/NavBar'
-import SideBar from '@/components/ai-landing/SideBar'
+import NavBar from '@/components/NavBar'
+import SideBar from '@/components/SideBar'
 import { getApiLimitCount } from '@/lib/api-limit'
 import { checkSubscription } from '@/lib/subscription'
 

@@ -1,5 +1,5 @@
-import Heading from '@/components/ai-landing/Heading'
-import SubscriptionButton from '@/components/ai-landing/subscription-button'
+import Heading from '@/components/Heading'
+import SubscriptionButton from '@/components/subscription-button'
 import { checkSubscription } from '@/lib/subscription'
 import { Settings } from 'lucide-react'
 

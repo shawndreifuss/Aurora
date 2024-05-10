@@ -1,8 +1,8 @@
 'use client'
 
-import Empty from '@/components/ai-landing/Empty'
-import Heading from '@/components/ai-landing/Heading'
-import Loader from '@/components/ai-landing/Loader'
+import Empty from '@/components/Empty'
+import Heading from '@/components/Heading'
+import Loader from '@/components/Loader'
 import { Button } from '@/components/ui/button'
 import { Form, FormControl, FormField, FormItem } from '@/components/ui/form'
 import { Input } from '@/components/ui/input'

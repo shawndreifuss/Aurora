@@ -2,17 +2,17 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
-import ToasterProvider from '@/components/ai-landing/toaster-provider'
-import ProModal from '@/components/ai-landing/pro-modal'
-import CrispChat from '@/components/ai-landing/crisp-chat'
+import ProModal from '@/components/pro-modal'
+import ToasterProvider from '@/components/toaster-provider'
+import CrispChat from '@/components/crisp-chat'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Genius',
+  title: 'Aurora',
   description: 'AI Platform',
   icons: {
-    icon: '/logo.png',
+    icon: '/watcher.png',
   },
 }
 
@@ -35,4 +35,3 @@ export default function RootLayout({
     </ClerkProvider>
   )
 }
-
