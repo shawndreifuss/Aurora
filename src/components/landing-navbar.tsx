@@ -15,10 +15,10 @@ const LandingNavBar = () => {
   return (
     <nav className="p-4 bg-transparent flex items-center justify-between">
       <Link href="/" className="flex items-center">
-        <div className="relative h-8 w-8 mr-4">
+        <div className="relative h-20 w-20 mr-4">
           <Image fill alt="Logo" src="/aurora-logo.png" />
         </div>
-        <h1 className={cn('text-2xl font-bold text-white', font.className)}>
+        <h1 className={cn('text-transparent text-[3rem] bg-clip-text bg-gradient-to-r from-[#fe8c00] to-[#f83600] ', font.className)}>
           Aurora
         </h1>
       </Link>
