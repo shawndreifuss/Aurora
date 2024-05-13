@@ -39,7 +39,7 @@ const VideoPage = () => {
       if (error?.response?.status === 403) {
         onOpen() // open pro modal
       } else {
-        toast.error('Something went wrong')
+        console.error(error) 
       }
     } finally {
       router.refresh()

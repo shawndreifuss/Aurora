@@ -30,7 +30,7 @@ const LandingHero = () => {
         </div>
       </div>
       <div className='flex justify-center align-center '>
-<Image className='animate-pulse' alt='' width={200} height={200} src={'/all.png'} />
+{/* <Image className='animate-pulse' alt='' width={200} height={200} src={'/all.png'} /> */}
 </div>
       <div className="text-sm md:text-xl font-light text-white">
         Create content using AI 10x faster.

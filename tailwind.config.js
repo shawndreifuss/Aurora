@@ -69,6 +69,11 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+          'automation-zoom-in': 'automation-zoom-in 0.5s',
+          line1: "line 3s linear infinite",
+          line2: "line 6s linear infinite",
+          line3: "line 9s linear infinite",
+        
       },
     },
   },

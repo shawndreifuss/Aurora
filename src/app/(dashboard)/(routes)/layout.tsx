@@ -15,6 +15,7 @@ const DashboardLayout = async ({ children }: { children: ReactNode }) => {
       </div>
 
       <main className="md:pl-72">
+        
         <NavBar />
         {children}
       </main>
