@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'Aurora',
   description: 'AI Platform',
   icons: {
-    icon: '/watcher.png',
+    icon: '/aurora-logo.png',
   },
 }
 
