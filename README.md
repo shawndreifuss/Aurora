@@ -1,9 +1,5 @@
 # SASS AI
 
-Welcome to **SAAS AI**! This is a [Next.js](https://nextjs.org/) application Inspired By [Code With Antonio](https://www.youtube.com/@codewithantonio) designed to showcase the integration of [Open AI](https://openai.com/) and [Replicate](https://replicate.com/) for creating 5 AI generators (chat, code, image, music and video) plus using [stripe](https://stripe.com/) for payment and [crisp](https://crisp.chat/en/) for customer support.
-
-![App Screenshot](/public/screenshot.png)
-
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -31,7 +27,7 @@ These instructions will help you set up a local copy of the project on your mach
 2. Install dependencies:
 
    ```bash
-   pnpm install
+   bun install
    ```
 
 3. Add .env file in root directory:
@@ -60,7 +56,7 @@ These instructions will help you set up a local copy of the project on your mach
 
 4. Run the project:
    ```bash
-   pnpm dev
+   bun run dev
    ```
 
 ### Technologies
